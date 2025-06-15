@@ -30,19 +30,9 @@ Visit the live site: [https://igor-kan.github.io/tripweaver](https://igor-kan.gi
     ```
     Open [http://localhost:8080](http://localhost:8080) in your browser.
 
-## Deployment to GitHub Pages
+## Deployment
 
-This project is configured for deployment to GitHub Pages.
-
-1. **Ensure `gh-pages` is installed as a dev dependency:**
-    ```bash
-    npm install --save-dev gh-pages
-    ```
-2. **Run the deployment script:**
-    ```bash
-    npm run deploy
-    ```
-    This will build the project, create a `dist` directory with static assets, and deploy it to the `gh-pages` branch.
+This app is automatically deployed to GitHub Pages from the `main` branch using GitHub Actions. The static site is built with Vite (output to the `dist` directory) and deployed.
 
 ---
 
