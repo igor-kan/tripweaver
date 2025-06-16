@@ -8,7 +8,7 @@ A web application for planning, weaving, and sharing your travel adventures.
 - Map-based route visualization
 - Collaborative travel planning
 - Trip sharing and discovery
-
+w
 ## Live Demo
 
 Visit the live site: [https://igor-kan.github.io/tripweaver](https://igor-kan.github.io/tripweaver)
@@ -33,6 +33,10 @@ Visit the live site: [https://igor-kan.github.io/tripweaver](https://igor-kan.gi
 ## Deployment
 
 This app is automatically deployed to GitHub Pages from the `main` branch using GitHub Actions. The static site is built with Vite (output to the `dist` directory) and deployed.
+
+### GitHub Pages Deployment Status
+
+This project is deployed to GitHub Pages via GitHub Actions. If you're experiencing issues with the deployment, please refer to the workflow in `.github/workflows/pages.yml`.
 
 ---
 
